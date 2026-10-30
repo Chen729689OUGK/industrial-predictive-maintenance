@@ -12,10 +12,6 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Modèles entraînés
-models/*
-!models/.gitkeep
-
 # Fichiers système
 .DS_Store
 
