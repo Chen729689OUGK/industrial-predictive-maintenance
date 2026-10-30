@@ -1,0 +1,30 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données générées
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modèles entraînés
+models/*
+!models/.gitkeep
+
+# Fichiers système
+.DS_Store
+
+# Tests et couverture
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
